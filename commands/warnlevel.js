@@ -5,7 +5,7 @@ const aysync = require('async');
 
 let warns = JSON.parse(fs.readFileSync("./warnings.json", "utf8"));
 
-exports.run = async (bot, message, args) => {
+exports.run = async (client, message, args) => {
 
   if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("You can't do that.");
 
