@@ -1,0 +1,17 @@
+{
+  "name": "life-bot",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "moderation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node moderation.js"
+  },
+  "author": "L00PY",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "discord.js": "^11.3.2",
+    "ms": "^2.1.1"
+  }
+}
