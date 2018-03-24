@@ -16,7 +16,7 @@ client.user.setPresence({
 afk: false,
 status: 'online',
 game: {
-    name: "life bot moderation | -moderation | " + client.guilds.size + " servers.",
+    name: "life bot moderation | @moderation | " + client.guilds.size + " servers.",
     type: 3,
     url: "https://www.twitch.tv/l00py1"
 }
